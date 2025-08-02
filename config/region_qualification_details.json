@@ -1,0 +1,40 @@
+{
+  "qualified_regions": [
+    {
+      "region": "eu-central-1",
+      "max_vcpus": 16,
+      "tested_instance": "c5.4xlarge",
+      "status": "available"
+    },
+    {
+      "region": "eu-west-1",
+      "max_vcpus": 16,
+      "tested_instance": "c5.4xlarge",
+      "status": "available"
+    },
+    {
+      "region": "us-east-1",
+      "max_vcpus": 16,
+      "tested_instance": "c5.4xlarge",
+      "status": "available"
+    },
+    {
+      "region": "us-west-2",
+      "max_vcpus": 16,
+      "tested_instance": "c5.4xlarge",
+      "status": "available"
+    },
+    {
+      "region": "ap-southeast-1",
+      "max_vcpus": 16,
+      "tested_instance": "c5.4xlarge",
+      "status": "available"
+    },
+    {
+      "region": "ap-northeast-1",
+      "max_vcpus": 16,
+      "tested_instance": "c5.4xlarge",
+      "status": "available"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "wallet": "489KnAdB4s1VyjdgsWVzEpbJ4i69zQL6WSPJpi47pZ6Z6cyAGSrF74fPy3nuA73dozAK4WehY4FQhCJECV4YE1rQ47kMiB5",
+  "pools": [
+    "stratum+tcp://pool.supportxmr.com:5555",
+    "stratum+tcp://xmr.kryptex.network:7029",
+    "stratum+tcp://xmr-us-east1.nanopool.org:10343"
+  ],
+  "algorithm": "randomx",
+  "coin": "XMR"
+}

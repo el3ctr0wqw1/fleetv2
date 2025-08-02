@@ -1,0 +1,108 @@
+{
+  "global": {
+    "iam": {
+      "role": {
+        "id": "RM-Parametrized-ECSRole",
+        "created_at": "2025-08-02T13:19:48.121761",
+        "name": "RM-Parametrized-ECSRole",
+        "type": "ecs"
+      }
+    }
+  },
+  "eu-central-1": {
+    "ecs": {
+      "cluster": {
+        "id": "arn:aws:ecs:eu-central-1:695917327073:cluster/rm-parametrized-cluster",
+        "created_at": "2025-08-02T13:20:20.790254",
+        "name": "rm-parametrized-cluster",
+        "arn": "arn:aws:ecs:eu-central-1:695917327073:cluster/rm-parametrized-cluster"
+      },
+      "task-definition": {
+        "id": "arn:aws:ecs:eu-central-1:695917327073:task-definition/rm-parametrized-task:3",
+        "created_at": "2025-08-02T13:20:20.883980",
+        "name": "rm-parametrized-task",
+        "arn": "arn:aws:ecs:eu-central-1:695917327073:task-definition/rm-parametrized-task:3"
+      }
+    }
+  },
+  "eu-west-1": {
+    "ecs": {
+      "cluster": {
+        "id": "arn:aws:ecs:eu-west-1:695917327073:cluster/rm-parametrized-cluster",
+        "created_at": "2025-08-02T13:20:21.929439",
+        "name": "rm-parametrized-cluster",
+        "arn": "arn:aws:ecs:eu-west-1:695917327073:cluster/rm-parametrized-cluster"
+      },
+      "task-definition": {
+        "id": "arn:aws:ecs:eu-west-1:695917327073:task-definition/rm-parametrized-task:3",
+        "created_at": "2025-08-02T13:20:22.028560",
+        "name": "rm-parametrized-task",
+        "arn": "arn:aws:ecs:eu-west-1:695917327073:task-definition/rm-parametrized-task:3"
+      }
+    }
+  },
+  "us-east-1": {
+    "ecs": {
+      "cluster": {
+        "id": "arn:aws:ecs:us-east-1:695917327073:cluster/rm-parametrized-cluster",
+        "created_at": "2025-08-02T13:20:23.600823",
+        "name": "rm-parametrized-cluster",
+        "arn": "arn:aws:ecs:us-east-1:695917327073:cluster/rm-parametrized-cluster"
+      },
+      "task-definition": {
+        "id": "arn:aws:ecs:us-east-1:695917327073:task-definition/rm-parametrized-task:3",
+        "created_at": "2025-08-02T13:20:23.765923",
+        "name": "rm-parametrized-task",
+        "arn": "arn:aws:ecs:us-east-1:695917327073:task-definition/rm-parametrized-task:3"
+      }
+    }
+  },
+  "us-west-2": {
+    "ecs": {
+      "cluster": {
+        "id": "arn:aws:ecs:us-west-2:695917327073:cluster/rm-parametrized-cluster",
+        "created_at": "2025-08-02T13:20:26.262242",
+        "name": "rm-parametrized-cluster",
+        "arn": "arn:aws:ecs:us-west-2:695917327073:cluster/rm-parametrized-cluster"
+      },
+      "task-definition": {
+        "id": "arn:aws:ecs:us-west-2:695917327073:task-definition/rm-parametrized-task:3",
+        "created_at": "2025-08-02T13:20:26.520134",
+        "name": "rm-parametrized-task",
+        "arn": "arn:aws:ecs:us-west-2:695917327073:task-definition/rm-parametrized-task:3"
+      }
+    }
+  },
+  "ap-southeast-1": {
+    "ecs": {
+      "cluster": {
+        "id": "arn:aws:ecs:ap-southeast-1:695917327073:cluster/rm-parametrized-cluster",
+        "created_at": "2025-08-02T13:20:29.698480",
+        "name": "rm-parametrized-cluster",
+        "arn": "arn:aws:ecs:ap-southeast-1:695917327073:cluster/rm-parametrized-cluster"
+      },
+      "task-definition": {
+        "id": "arn:aws:ecs:ap-southeast-1:695917327073:task-definition/rm-parametrized-task:3",
+        "created_at": "2025-08-02T13:20:29.994440",
+        "name": "rm-parametrized-task",
+        "arn": "arn:aws:ecs:ap-southeast-1:695917327073:task-definition/rm-parametrized-task:3"
+      }
+    }
+  },
+  "ap-northeast-1": {
+    "ecs": {
+      "cluster": {
+        "id": "arn:aws:ecs:ap-northeast-1:695917327073:cluster/rm-parametrized-cluster",
+        "created_at": "2025-08-02T13:20:33.398955",
+        "name": "rm-parametrized-cluster",
+        "arn": "arn:aws:ecs:ap-northeast-1:695917327073:cluster/rm-parametrized-cluster"
+      },
+      "task-definition": {
+        "id": "arn:aws:ecs:ap-northeast-1:695917327073:task-definition/rm-parametrized-task:3",
+        "created_at": "2025-08-02T13:20:33.711912",
+        "name": "rm-parametrized-task",
+        "arn": "arn:aws:ecs:ap-northeast-1:695917327073:task-definition/rm-parametrized-task:3"
+      }
+    }
+  }
+}

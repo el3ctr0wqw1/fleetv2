@@ -1,0 +1,57 @@
+2025-08-02 15:19:43,028 [INFO] 🚀 Starting RM Parametrized Fleet Deployment
+2025-08-02 15:19:43,028 [INFO] ==================================================
+2025-08-02 15:19:43,028 [INFO] Checking prerequisites...
+2025-08-02 15:19:43,918 [WARNING] AWS CLI returned non-JSON output, but command succeeded
+2025-08-02 15:19:44,094 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-02 15:19:44,631 [INFO] Boto3 configured for account: 695917327073
+2025-08-02 15:19:44,631 [INFO] All prerequisites met!
+2025-08-02 15:19:44,633 [INFO] 
+📋 Step 1: Setting up AWS Dependencies
+2025-08-02 15:19:44,634 [INFO] Running AWS Dependencies Setup...
+2025-08-02 15:19:52,090 [INFO] ✅ AWS Dependencies Setup completed successfully
+2025-08-02 15:19:52,090 [INFO] 
+🌍 Step 2: Qualifying AWS Regions
+2025-08-02 15:19:52,090 [INFO] Running Region Qualification...
+2025-08-02 15:20:19,283 [INFO] ✅ Region Qualification completed successfully
+2025-08-02 15:20:19,283 [INFO] 
+🏗️ Step 3: Creating Infrastructure
+2025-08-02 15:20:19,283 [INFO] Running Infrastructure Creation...
+2025-08-02 15:20:34,754 [INFO] ✅ Infrastructure Creation completed successfully
+2025-08-02 15:20:34,754 [INFO] 
+🚀 Step 4: Deploying Services
+2025-08-02 15:20:34,754 [INFO] Running Service Deployment...
+2025-08-02 15:21:40,513 [INFO] ✅ Service Deployment completed successfully
+2025-08-02 15:21:40,513 [INFO] 
+📊 Step 5: Starting Monitoring
+2025-08-02 15:21:40,513 [INFO] Running Monitoring Setup...
+2025-08-02 15:21:40,774 [ERROR] ❌ Monitoring Setup failed with return code 1
+2025-08-02 15:21:40,774 [ERROR] Error output: Traceback (most recent call last):
+  File "/home/mightycapy/Documents/aws-auto/aws-cfx-fleet/monitor/monitor.py", line 28, in <module>
+    main()
+  File "/home/mightycapy/Documents/aws-auto/aws-cfx-fleet/monitor/monitor.py", line 20, in main
+    with open("config/resources.json") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/resources.json'
+
+2025-08-02 15:21:40,774 [WARNING] ⚠️ Monitoring setup failed, but deployment may still be successful
+2025-08-02 15:21:40,774 [INFO] 
+==================================================
+2025-08-02 15:21:40,774 [INFO] 🎉 RM Parametrized Fleet Deployment Completed!
+2025-08-02 15:21:40,774 [INFO] ==================================================
+2025-08-02 15:21:41,304 [INFO] 
+📋 Deployment Summary:
+2025-08-02 15:21:41,304 [INFO]    Tracking file: resources_695917327073.json
+2025-08-02 15:21:41,304 [INFO]    Regions deployed: 7
+2025-08-02 15:21:41,304 [INFO]    global: ['iam']
+2025-08-02 15:21:41,304 [INFO]    eu-central-1: ['ecs']
+2025-08-02 15:21:41,304 [INFO]    eu-west-1: ['ecs']
+2025-08-02 15:21:41,304 [INFO]    us-east-1: ['ecs']
+2025-08-02 15:21:41,304 [INFO]    us-west-2: ['ecs']
+2025-08-02 15:21:41,305 [INFO]    ap-southeast-1: ['ecs']
+2025-08-02 15:21:41,305 [INFO]    ap-northeast-1: ['ecs']
+2025-08-02 15:21:41,305 [INFO] 
+📝 Next Steps:
+2025-08-02 15:21:41,305 [INFO]    1. Check the deployment logs for any issues
+2025-08-02 15:21:41,305 [INFO]    2. Monitor your AWS console for resource creation
+2025-08-02 15:21:41,305 [INFO]    3. Use 'python cleanup/complete_cleanup.py' to remove all resources when done
+2025-08-02 15:21:41,305 [INFO]    4. Check the tracking file for detailed resource information
